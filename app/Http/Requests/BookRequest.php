@@ -32,7 +32,7 @@ class BookRequest extends FormRequest
         return [
             'name' => 'required|string|max:50',
             'price' => 'required|integer',
-            'author' => 'nullable|string|max:50'
+            'author' => 'required|string|max:50'
         ];
     }
 }
