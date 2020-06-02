@@ -22,11 +22,16 @@ class mytest extends TestCase
         $book->author = "寺田佳央";
         $book->save();
 
+
         // テストデータの読み込み
-        $readBook = \App\Book::where('name','寺田佳央')->first();
+        $readBook = \App\Book::where('author','寺田佳央')->first();
+
+        // デバック
+        //eval(\Psy\Sh());
+
         // データが取得できたか。
         $this->assertNotNull($readBook);
-        $this->assertTrue('name','JavaEE');
+        $this->assertSame($readBook->name,'JavaEE');
 
         // テストデータの削除
         \App\Book::where('name','JavaEE')->delete();

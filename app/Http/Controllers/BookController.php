@@ -39,7 +39,7 @@ class BookController extends Controller
 //    public function update(Request $request,$id){
     // バリデータ有り
     public function update(BookRequest $request,$id){
-        $book = Book::findOrFail($id);
+            $book = Book::findOrFail($id);
         $book->name = $request->name;
         $book->price = $request->price;
         $book->author = $request->author;
