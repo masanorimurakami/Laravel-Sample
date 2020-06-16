@@ -15,11 +15,14 @@ use Illuminate\Support\Facades\Route;
 
 // Restfulなルーティングを行う。
 Route::resource('book','BookController');
-// @indexで、コントローラーのindexメソッドを実行。
+// '/'で、コントローラーのindexメソッドを実行。
 // Route::resource('book','BookController@index');
 // localhost8000/book/1 Get であればshowメソッドを実行
 // Route::resource('book/{id}','BookController@show');
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
+Route::get('/', function () {
+    return view('phpinfo');
+});
+Route::resource('podtest','PodTestController');
+// '/'で、コントローラーのindexメソッドを実行。
+
