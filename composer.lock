@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db331806fd1fcfacad194ffb9dc4c105",
+    "content-hash": "dca1bf740cc371f2c0441fb53a1a8846",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4197,16 +4197,16 @@
         },
         {
             "name": "laravel/dusk",
-            "version": "v6.2.0",
+            "version": "v6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/dusk.git",
-                "reference": "6c1e4f648696c697ef048b7f983b65defa3b2003"
+                "reference": "e17ddfb8798f59a054dc2194ce190fa26c0c112e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/dusk/zipball/6c1e4f648696c697ef048b7f983b65defa3b2003",
-                "reference": "6c1e4f648696c697ef048b7f983b65defa3b2003",
+                "url": "https://api.github.com/repos/laravel/dusk/zipball/e17ddfb8798f59a054dc2194ce190fa26c0c112e",
+                "reference": "e17ddfb8798f59a054dc2194ce190fa26c0c112e",
                 "shasum": ""
             },
             "require": {
@@ -4261,7 +4261,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2020-05-26T18:05:08+00:00"
+            "time": "2020-06-30T20:05:33+00:00"
         },
         {
             "name": "mockery/mockery",
