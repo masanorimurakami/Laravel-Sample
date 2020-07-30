@@ -1162,17 +1162,17 @@
     },
     {
         "name": "laravel/dusk",
-        "version": "v6.4.0",
-        "version_normalized": "6.4.0.0",
+        "version": "v6.4.1",
+        "version_normalized": "6.4.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/laravel/dusk.git",
-            "reference": "e17ddfb8798f59a054dc2194ce190fa26c0c112e"
+            "reference": "db10ac70d01f332614a54cd7f1fe4757066db7cc"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/laravel/dusk/zipball/e17ddfb8798f59a054dc2194ce190fa26c0c112e",
-            "reference": "e17ddfb8798f59a054dc2194ce190fa26c0c112e",
+            "url": "https://api.github.com/repos/laravel/dusk/zipball/db10ac70d01f332614a54cd7f1fe4757066db7cc",
+            "reference": "db10ac70d01f332614a54cd7f1fe4757066db7cc",
             "shasum": ""
         },
         "require": {
@@ -1195,7 +1195,7 @@
         "suggest": {
             "ext-pcntl": "Used to gracefully terminate Dusk when tests are running."
         },
-        "time": "2020-06-30T20:05:33+00:00",
+        "time": "2020-07-14T18:02:46+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
