@@ -4834,6 +4834,7 @@ class ComposerStaticInit5e9b927f085e533f5f7c366ab3e1df94
         'Tests\\Browser\\Pages\\Page' => __DIR__ . '/../..' . '/tests/Browser/Pages/Page.php',
         'Tests\\CreatesApplication' => __DIR__ . '/../..' . '/tests/CreatesApplication.php',
         'Tests\\DuskTestCase' => __DIR__ . '/../..' . '/tests/DuskTestCase.php',
+        'Tests\\Feature\\BookTest' => __DIR__ . '/../..' . '/tests/Feature/BookTest.php',
         'Tests\\Feature\\ExampleTest' => __DIR__ . '/../..' . '/tests/Feature/ExampleTest.php',
         'Tests\\Feature\\mytest' => __DIR__ . '/../..' . '/tests/Feature/mytest.php',
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',

@@ -4379,6 +4379,7 @@ return array(
     'Tests\\Browser\\Pages\\Page' => $baseDir . '/tests/Browser/Pages/Page.php',
     'Tests\\CreatesApplication' => $baseDir . '/tests/CreatesApplication.php',
     'Tests\\DuskTestCase' => $baseDir . '/tests/DuskTestCase.php',
+    'Tests\\Feature\\BookTest' => $baseDir . '/tests/Feature/BookTest.php',
     'Tests\\Feature\\ExampleTest' => $baseDir . '/tests/Feature/ExampleTest.php',
     'Tests\\Feature\\mytest' => $baseDir . '/tests/Feature/mytest.php',
     'Tests\\TestCase' => $baseDir . '/tests/TestCase.php',
